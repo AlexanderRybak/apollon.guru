@@ -1,0 +1,12 @@
+cd /c/github - перейти в папку диска С github
+echo "# apollon.guru" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/AlexanderRybak/apollon.guru.git
+git push -u origin master
+
+git add -a 
+or git add .
+git commit -a "my comments"
+git push
